@@ -175,14 +175,14 @@ int ascending(int size_sequence, int scenario){
     for (i=0; i<n; i++){
          v[i] = i;
     }
-	printf("\n Cenario atual: %d\n", scenario);
+    printf("\n Cenario atual: %d\n", scenario);
     save_entries(scenario, n, v);
     start_t = clock();
     ordered_sequence = insertion_sort(v, n);
     end_t = clock();
     time_spent = ((end_t - start_t) / (double)CLOCKS_PER_SEC);
     save_spent_time(scenario, n, time_spent);
-	printf("\n Cenario atual: %d\n", scenario);
+    printf("\n Cenario atual: %d\n", scenario);
     save_outputs(scenario, n, ordered_sequence);
 
     free(v);
