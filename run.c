@@ -24,7 +24,7 @@ Semester: 2022-2
 void save_spent_time(int scenario, int size_sequence, double spent_time){
 	printf("\n Cenario in save spent time: %d\n", scenario);
     int i, scenario_choice=scenario, size_entries=size_sequence;
-    char path[] = "C://Users//Viviane Silva//Desktop//PA//1. Insertion Sort//Time Spent//";
+    char path[] = "C://PA//1. Insertion Sort//Time Spent//";
     char straux[15];
     FILE *f;
 
@@ -69,7 +69,7 @@ void save_spent_time(int scenario, int size_sequence, double spent_time){
 void save_outputs(int scenario, int size_sequence, int *sequence){
 	printf("\n Cenario in save outputs: %d\n", scenario);
     int i, scenario_choice=scenario, size_entries=size_sequence;
-    char path[] = "C://Users//Viviane Silva//Desktop//PA//1. Insertion Sort//Outputs//";
+    char path[] = "C://PA//1. Insertion Sort//Outputs//";
     char straux[15];
     FILE *f;
 
@@ -116,7 +116,7 @@ void save_outputs(int scenario, int size_sequence, int *sequence){
 void save_entries(int scenario, int size_sequence, int *sequence){
 	printf("\n Cenario in save entries: %d\n", scenario);
     int i, scenario_choice=scenario, size_entries=size_sequence;
-    char path[] = "C://Users//Viviane Silva//Desktop//PA//1. Insertion Sort//Entries//";
+    char path[] = "C://PA//1. Insertion Sort//Entries//";
     char straux[15];
     FILE *f;
 
